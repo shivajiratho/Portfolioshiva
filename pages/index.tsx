@@ -17,10 +17,11 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
         <meta
           name="description"
-          content="My Web Developer Portfolio site, Jagdeep Singh"
+          content="My Developer Portfolio site, Trevor Smith
+          "
         />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <title> Jagdeep Singh Portfolio</title>
+        <title> trevor smith Portfolio</title>
       </Head>
       <Hero />
       <About />

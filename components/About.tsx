@@ -10,7 +10,7 @@ function AboutText(): JSX.Element {
       </p>
       <h2 className="py-4 text-center xl:text-start">Intellectual Developer</h2>
       <p className="py-2 text-gray-600">
-        Hello! I am a passionate Web Developer with over 10 years in the industry. 
+        Hello! I am a passionate Software Developer with over 1 year in the industry. 
         I specialize in crafting efficient, user-friendly websites and web applications 
         using modern technologies like HTML5, CSS3, JavaScript, and frameworks such as React 
         and Angular. 
