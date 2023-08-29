@@ -21,7 +21,7 @@ export default function Home() {
           "
         />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <title> trevor smith Portfolio</title>
+        <title> Trevor Smith Portfolio</title>
       </Head>
       <Hero />
       <About />
