@@ -1,7 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 
-import travelAgencyImg from "../public/assets/projects/Amistad-city.png";
+import Amistad-city from "../public/assets/projects/Amistad-city.png";
 
 import BackButton from "../components/BackButton";
 import ProjectButtonCode from "../components/project/ProjectButtonCode";
@@ -25,8 +25,7 @@ function LandingPageTextBody() {
     <div className="col-span-4">
       <ProjectTextHeading />
       <p>
-        I built many mock landing pages with various technologies. Objective was
-        to learn front end technologies and frameworks. SpaceX landing page was
+        I used UX/UI experience to build this festival website with various technologies and frameworks. SpaceX landing page was
         made with{" "}
         <Link
           href="https://milliorn.github.io/SpaceX-Website/"
