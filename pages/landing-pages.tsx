@@ -1,7 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 
-import travelAgencyImg from "../public/assets/projects/travel-agency.png";
+import travelAgencyImg from "../public/assets/projects/Amistad-city.png";
 
 import BackButton from "../components/BackButton";
 import ProjectButtonCode from "../components/project/ProjectButtonCode";
@@ -49,7 +49,7 @@ function LandingPageTextBody() {
       </p>
 
       <ProjectButtonCode url="https://github.com/milliorn?tab=repositories&q=landing&type=&language=&sort=" />
-      <ProjectButtonDemo url="https://milliorn.github.io/travel-agency/" />
+      <ProjectButtonDemo url="https://www.amistadcity.com" />
     </div>
   );
 }
