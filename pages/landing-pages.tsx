@@ -1,7 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 
-import travelAgencyImg from "../public/assets/projects/Amistad-city.png";
+import travelAgencyImg from "../public/assets/projects/Amistadcity.png";
 
 import BackButton from "../components/BackButton";
 import ProjectButtonCode from "../components/project/ProjectButtonCode";
