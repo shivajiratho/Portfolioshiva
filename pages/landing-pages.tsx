@@ -1,10 +1,10 @@
 import Image from "next/image";
 import Link from "next/link";
 
-import travelAgencyImg from '../components/projects/travel-agency.png';
+import travelAgencyImg from "../assets/projects/travel-agency.png";
 
 import BackButton from "../components/BackButton";
-import ProjectButtonCode from "../components/psroject/ProjectButtonCode";
+import ProjectButtonCode from "../components/project/ProjectButtonCode";
 import ProjectButtonDemo from "../components/project/ProjectButtonDemo";
 import ProjectHeroOverlay from "../components/project/ProjectHeroOverlay";
 import ProjectHeroText from "../components/project/ProjectHeroText";
