@@ -1,7 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 
-import travelAgencyImg from "../assets/projects/travel-agency.png";
+import travelAgencyImg from "/assets/projects/travel-agency.png";
 
 import BackButton from "../components/BackButton";
 import ProjectButtonCode from "../components/project/ProjectButtonCode";
