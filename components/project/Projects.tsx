@@ -52,6 +52,12 @@ function ProjectsContainer(): JSX.Element {
         tech="OpenAI, NodeJS, ExpressJS, Render"
         title="Open AI Image Generator"
       />
+
+<ProjectItem
+        backgroundImg={amistadcityImg}
+        projectUrl="/open-ai"
+        tech="OpenAI, NodeJS, ExpressJS, Render"
+        title="Open AI Image Generator"
     </div>
   );
 }
