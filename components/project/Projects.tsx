@@ -5,9 +5,10 @@ import dictionaryImg from "../../public/assets/projects/dictionary.png";
 import gatsbyRecipeImg from "../../public/assets/projects/gatsbyrecipes.png";
 import movieDatabaseImg from "../../public/assets/projects/movie-database.png";
 import StarlocoverImg from "../../public/assets/projects/Starlocover.png";
+import chattykenportfileImg from "../../public/assets/projects/chattykenportfile.png";
 import AmistadcityImg from "../../public/assets/projects/Amistadcity.png";
 import travelAgencyImg from "../../public/assets/projects/travel-agency.png";
-import chattykenportfileImg from "../../public/assets/projects/chattykenportfileImg.png";
+
 
 // holds all project items in projects
 function ProjectsContainer(): JSX.Element {
