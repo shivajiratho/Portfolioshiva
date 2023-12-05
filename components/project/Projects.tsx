@@ -7,6 +7,7 @@ import movieDatabaseImg from "../../public/assets/projects/movie-database.png";
 import StarlocoverImg from "../../public/assets/projects/Starlocover.png";
 import AmistadcityImg from "../../public/assets/projects/Amistadcity.png";
 import travelAgencyImg from "../../public/assets/projects/travel-agency.png";
+import chattykenportfileImg from "../../public/assets/projects/chattykenportfileImg.png";
 
 // holds all project items in projects
 function ProjectsContainer(): JSX.Element {
@@ -62,7 +63,7 @@ function ProjectsContainer(): JSX.Element {
       />
       
       <ProjectItem
-        backgroundImg={StarlocoverImg}
+        backgroundImg={chattykenportfileImg}
         projectUrl="/open-ai"
         tech="OpenAI, NodeJS, ExpressJS, Render"
         title="Open AI Image Generator"
