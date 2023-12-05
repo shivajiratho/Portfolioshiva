@@ -47,7 +47,7 @@ function ProjectsContainer(): JSX.Element {
       />
 
       <ProjectItem
-        backgroundImg={openAiImg}
+        backgroundImg={StarlocoverImg}
         projectUrl="/open-ai"
         tech="OpenAI, NodeJS, ExpressJS, Render"
         title="Open AI Image Generator"
@@ -61,7 +61,7 @@ function ProjectsContainer(): JSX.Element {
       />
       
       <ProjectItem
-        backgroundImg={openAiImg}
+        backgroundImg={StarlocoverImg}
         projectUrl="/open-ai"
         tech="OpenAI, NodeJS, ExpressJS, Render"
         title="Open AI Image Generator"
