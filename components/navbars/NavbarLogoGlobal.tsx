@@ -1,6 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
-import NavLogo from "../../public/assets/monk.png";
+import NavLogo from "../../public/assets/redcitylogo.png";
 
 // global navbar logo
 export default function NavbarLogoGlobal(): JSX.Element {
