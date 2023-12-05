@@ -7,7 +7,7 @@ export default function ContactText(): JSX.Element {
       <p className="uppercase text-xl tracking-widest text-indigo-600 text-center ">
         Contact
       </p>
-      <h2 className="py-4 text-center">Ricky Rollins</h2>
+      <h2 className="py-4 text-center">Trevor Smith</h2>
       <p className="py-2 text-gray-600 text-center">Software Developer</p>
       <p className="py-2 text-gray-600 text-center">
         Available for Freelance or Full-Time Positions. Contact me and

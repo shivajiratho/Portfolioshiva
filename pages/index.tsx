@@ -14,14 +14,14 @@ export default function Home() {
   return (
     <>
       <Head>
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" href="/redcitylogo.png" />
         <meta
           name="description"
-          content="My Developer Portfolio site, Ricky Rollins
+          content="My Developer Portfolio site, Trevor Smith
           "
         />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <title> Ricky Rollins Portfolio</title>
+        <title> Trevor Smith Portfolio</title>
       </Head>
       <Hero />
       <About />
