@@ -54,7 +54,7 @@ function ProjectsContainer(): JSX.Element {
       />
 
       <ProjectItem
-        backgroundImg={openAiImg}
+        backgroundImg={AmistadcityImg}
         projectUrl="/open-ai"
         tech="OpenAI, NodeJS, ExpressJS, Render"
         title="Starlo Music & Video Streaming"
