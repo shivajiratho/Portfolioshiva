@@ -4,7 +4,6 @@ import currentWeatherImg from "../../public/assets/projects/current-weather.png"
 import dictionaryImg from "../../public/assets/projects/dictionary.png";
 import gatsbyRecipeImg from "../../public/assets/projects/gatsbyrecipes.png";
 import movieDatabaseImg from "../../public/assets/projects/movie-database.png";
-import Ricky Rollins from "../../public/assets/projects/open-ai-onrender.png";
 import StarlocoverImg from "../../public/assets/projects/Starlocover.png";
 import travelAgencyImg from "../../public/assets/projects/travel-agency.png";
 
