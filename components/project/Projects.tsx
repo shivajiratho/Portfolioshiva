@@ -5,6 +5,7 @@ import dictionaryImg from "../../public/assets/projects/dictionary.png";
 import gatsbyRecipeImg from "../../public/assets/projects/gatsbyrecipes.png";
 import movieDatabaseImg from "../../public/assets/projects/movie-database.png";
 import StarlocoverImg from "../../public/assets/projects/Starlocover.png";
+import AmistadcityImg from "../../public/assets/projects/Amistadcity.png";
 import travelAgencyImg from "../../public/assets/projects/travel-agency.png";
 
 // holds all project items in projects
@@ -47,10 +48,10 @@ function ProjectsContainer(): JSX.Element {
       />
 
       <ProjectItem
-        backgroundImg={StarlocoverImg}
+        backgroundImg={AmistadcityImg}
         projectUrl="/open-ai"
-        tech="OpenAI, NodeJS, ExpressJS, Render"
-        title="Open AI Image Generator"
+        tech="Wordpress, Divi, Elementor, Revslider"
+        title="Amistad City Festival"
       />
 
       <ProjectItem
