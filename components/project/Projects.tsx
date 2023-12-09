@@ -2,7 +2,7 @@ import ProjectItem from "./ProjectItem";
 
 import currentWeatherImg from "../../public/assets/projects/current-weather.png";
 import dictionaryImg from "../../public/assets/projects/dictionary.png";
-import uvmmobilecoverImg from "../../public/assets/projects/gatsbyrecipes.png";
+import uvmmobilecoverImg from "../../public/assets/projects/uvmmobilecover.png";
 import movieDatabaseImg from "../../public/assets/projects/movie-database.png";
 import StarlocoverImg from "../../public/assets/projects/Starlocover.png";
 import chattykenportfileImg from "../../public/assets/projects/chattykenportfile.png";
