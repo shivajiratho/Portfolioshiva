@@ -2,7 +2,7 @@ import ProjectItem from "./ProjectItem";
 
 import currentWeatherImg from "../../public/assets/projects/current-weather.png";
 import dictionaryImg from "../../public/assets/projects/dictionary.png";
-import gatsbyRecipeImg from "../../public/assets/projects/gatsbyrecipes.png";
+import uvmmobilecoverImg from "../../public/assets/projects/gatsbyrecipes.png";
 import movieDatabaseImg from "../../public/assets/projects/movie-database.png";
 import StarlocoverImg from "../../public/assets/projects/Starlocover.png";
 import chattykenportfileImg from "../../public/assets/projects/chattykenportfile.png";
@@ -43,7 +43,7 @@ function ProjectsContainer(): JSX.Element {
       />
 
       <ProjectItem
-        backgroundImg={gatsbyRecipeImg}
+        backgroundImg={uvmmobilecoverImg}
         projectUrl="/recipes"
         tech="Gatsby, Contentful CMS, GraphQL"
         title="Gatsby Recipes"
