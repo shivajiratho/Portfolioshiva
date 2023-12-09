@@ -1,4 +1,4 @@
-@tailwind base;
+can you add those effects to this ? @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
@@ -12,37 +12,31 @@ html {
 /* global styles for tailwind */
 @layer base {
   body {
-    @apply bg-white text-[#1f2937] tracking-wide; /* Updated background color to white */
-    position: relative;
-    width: 100%;
-    min-height: 100vh; /* Ensure at least full viewport height */
+    @apply bg-[#F3F4F6] text-[#1f2937] tracking-wide;
   }
 
-  /* ... other styles ... */
-
-  .planet {
-    position: absolute;
-    animation: float 10s infinite ease-in-out;
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    @apply font-bold;
   }
 
-  .far-away {
-    opacity: 0.6; /* Far away planets are less visible */
-    animation-duration: 15s; /* Slower animation for far away planets */
+  h1 {
+    @apply text-4xl sm:text-5xl md:text-6xl font-[Raleway];
   }
 
-  .ring {
-    fill: none;
-    stroke: white;
-    stroke-width: 2px;
+  h2 {
+    @apply text-3xl sm:text-4xl;
   }
-  
-  /* Custom styles for space background and animations */
-  @keyframes twinkle {
-    0%, 100% { opacity: 1; }
-    50% { opacity: 0.5; }
+
+  li {
+    @apply cursor-pointer;
   }
-  @keyframes float {
-    0%, 100% { transform: translateY(0); }
-    50% { transform: translateY(-20px); }
+
+  button {
+    @apply shadow-xl shadow-gray-400 rounded-xl uppercase bg-gradient-to-r from-[#4F46E5] to-[#60A5FA] text-white;
   }
 }
