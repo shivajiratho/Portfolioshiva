@@ -1,7 +1,7 @@
 import ProjectItem from "./ProjectItem";
 
 import currentWeatherImg from "../../public/assets/projects/current-weather.png";
-import dictionaryImg from "../../public/assets/projects/dictionary.png";
+import holsolwellcoverImg from "../../public/assets/projects/holsolwellcover.png";
 import uvmgallerycoverImg from "../../public/assets/projects/uvmgallerycover.png";
 import movieDatabaseImg from "../../public/assets/projects/movie-database.png";
 import StarlocoverImg from "../../public/assets/projects/Starlocover.png";
@@ -36,10 +36,10 @@ function ProjectsContainer(): JSX.Element {
       />
 
       <ProjectItem
-        backgroundImg={dictionaryImg}
+        backgroundImg={holsolwellcoverImg}
         projectUrl="/dictionary"
-        tech="React, Material UI, Netlify"
-        title="Dictionary"
+        tech="Ecwid, Wordpress, Divi, Threejs"
+        title="Hol Soul Wellness"
       />
 
       <ProjectItem
@@ -67,7 +67,7 @@ function ProjectsContainer(): JSX.Element {
         backgroundImg={chattykenportfileImg}
         projectUrl="/open-ai"
         tech="OpenAI, NodeJS, Javascript, PHP"
-        title="Open AI Image Generator"
+        title="Chatty Ken AI"
       />
 
     </div>
