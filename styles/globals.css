@@ -13,70 +13,19 @@ html {
 @layer base {
   body {
     @apply bg-black text-white tracking-wide;
-    /* Removed overflow: hidden to allow scrolling */
-    /* Removed height: 100vh to allow the body to grow with content */
     position: relative;
     width: 100%;
+    min-height: 100vh; /* Ensure at least full viewport height */
   }
 
-  h1,
-  h2,
-  h3,
-  h4,
-  h5,
-  h6 {
-    @apply font-bold;
-  }
+  /* ... other styles ... */
 
-  h1 {
-    @apply text-4xl sm:text-5xl md:text-6xl font-[Raleway];
-  }
-
-  h2 {
-    @apply text-3xl sm:text-4xl;
-  }
-
-  li {
-    @apply cursor-pointer;
-  }
-
-  button {
-    @apply shadow-xl shadow-gray-400 rounded-xl uppercase bg-gradient-to-r from-[#4F46E5] to-[#60A5FA] text-white;
-  }
-  
-  /* Custom styles for space background and animations */
-  @keyframes twinkle {
-    0%, 100% { opacity: 1; }
-    50% { opacity: 0.5; }
-  }
-  @keyframes float {
-    0%, 100% { transform: translateY(0); }
-    50% { transform: translateY(-20px); }
-  }
-
-  .star {
-    width: 3px;
-    height: 3px;
-    background-color: white;
-    border-radius: 50%;
+  .galaxy {
     position: absolute;
-    box-shadow: 0 0 8px white;
-    animation: twinkle 3s infinite ease-in-out;
-  }
-
-  .planet {
-    position: absolute;
-    animation: float 10s infinite ease-in-out;
-  }
-
-  .far-away {
-    opacity: 0.6; /* Far away planets are less visible */
-    animation-duration: 15s; /* Slower animation for far away planets */
-  }
-
-  .ring {
-    fill: none;
-    stroke: white;
-    stroke-width: 2px;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1; /* Ensure it's behind the content */
   }
 }
