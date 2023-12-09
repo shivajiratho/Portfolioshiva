@@ -13,10 +13,10 @@ html {
 @layer base {
   body {
     @apply bg-black text-white tracking-wide;
-    overflow: hidden;
+    /* Removed overflow: hidden to allow scrolling */
+    /* Removed height: 100vh to allow the body to grow with content */
     position: relative;
     width: 100%;
-    height: 100vh;
   }
 
   h1,
