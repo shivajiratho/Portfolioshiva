@@ -2,7 +2,7 @@ import ProjectItem from "./ProjectItem";
 
 import currentWeatherImg from "../../public/assets/projects/current-weather.png";
 import dictionaryImg from "../../public/assets/projects/dictionary.png";
-import uvmmobilecoverImg from "../../public/assets/projects/uvmmobilecover.png";
+import uvmgallerycoverImg from "../../public/assets/projects/uvmgallerycover.png";
 import movieDatabaseImg from "../../public/assets/projects/movie-database.png";
 import StarlocoverImg from "../../public/assets/projects/Starlocover.png";
 import chattykenportfileImg from "../../public/assets/projects/chattykenportfile.png";
@@ -43,30 +43,30 @@ function ProjectsContainer(): JSX.Element {
       />
 
       <ProjectItem
-        backgroundImg={uvmmobilecoverImg}
+        backgroundImg={uvmgallerycoverImg}
         projectUrl="/recipes"
-        tech="Gatsby, Contentful CMS, GraphQL"
-        title="Gatsby Recipes"
+        tech="Divi Builder, Wordpress, Cpanel, Ecwid"
+        title="Upscale Vision Media"
       />
 
       <ProjectItem
         backgroundImg={AmistadcityImg}
         projectUrl="/open-ai"
-        tech="Wordpress, Divi, Elementor, Revslider"
+        tech="Wordpress, Divi, Elementor, Revslider, Cpanel"
         title="Amistad City Festival"
       />
 
       <ProjectItem
         backgroundImg={StarlocoverImg}
         projectUrl="/open-ai"
-        tech="OpenAI, NodeJS, ExpressJS, Render"
+        tech="NodeJS, Tailwind, PHP, Javascript"
         title="Starlo Music & Video Streaming"
       />
       
       <ProjectItem
         backgroundImg={chattykenportfileImg}
         projectUrl="/open-ai"
-        tech="OpenAI, NodeJS, ExpressJS, Render"
+        tech="OpenAI, NodeJS, Javascript, PHP"
         title="Open AI Image Generator"
       />
 
