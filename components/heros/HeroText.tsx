@@ -8,9 +8,9 @@ export default function HeroText(): JSX.Element {
         </p>
       </div>
 
-      <h1 className="py-4 text-grey-700">
+      <h4 className="py-4 text-grey-700">
         Hello, I&apos;m <span className="text-red-600">Trevor Smith</span>
-      </h1>
+      </h4>
       <h1 className="py-4 text-gray-700">Web Developer</h1>
       <p className="py-4 text-gray-600 max-w-xs m-auto">
         Focused on building responsive, mobile first web applications while
