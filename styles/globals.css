@@ -12,7 +12,7 @@ html {
 /* global styles for tailwind */
 @layer base {
   body {
-    @apply bg-#FFFCF4 text-black tracking-wide;
+    @apply bg-white text-black tracking-wide;
     /* Removed overflow: hidden to allow scrolling */
     /* Removed height: 100vh to allow the body to grow with content */
     position: relative;
