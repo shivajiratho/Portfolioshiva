@@ -1,60 +1,82 @@
-import Image from "next/image";
-import Link from "next/link";
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
-// about text component
-function AboutText(): JSX.Element {
-  return (
-    <div className="col-span-2 mx-4">
-      <p className="uppercase text-xl tracking-widest text-indigo-600 text-center xl:text-start">
-        About Me
-      </p>
-      <h2 className="py-4 text-center xl:text-start">Intellectual Developer</h2>
-      <p className="py-2 text-gray-600">
-        Hello! I am a passionate Software Developer with over 1 year in the industry. 
-        I specialize in crafting efficient, user-friendly websites and web applications 
-        using modern technologies like HTML5, CSS3, JavaScript, and frameworks such as React 
-        and Angular. 
-       
-      </p>
-      <p className="py-2 text-gray-600">
-        My background in both front-end and back-end development, 
-        combined with my keen eye for design and user experience, allows me to create comprehensive, 
-        engaging digital solutions. 
-      </p>
-      <Link href="/#projects" scroll={false}>
-        <p className="py-2 text-gray-600 underline cursor-pointer">
-          Click to see my favorite projects.
-        </p>
-      </Link>
-    </div>
-  );
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+html {
+  scroll-behavior: smooth;
+  font-family: "Raleway", sans-serif;
 }
 
-// about image container
-function AboutImage(): JSX.Element {
-  return (
-    <div className="w-full h-auto m-auto shadow-xl shadow-gray-400 rounded-xl flex items-center justify-center p-4 hover:scale-105 ease-in duration-300">
-      <Image
-        alt="/"
-        blurDataURL="../public/assets/navbarLogo.png"
-        className="rounded-xl"
-        height={1080}
-        placeholder="blur"
-        src="https://source.unsplash.com/random/?web+developer"
-        width={1920}
-      />
-    </div>
-  );
-}
+/* global styles for tailwind */
+@layer base {
+  body {
+    @apply bg-black text-white tracking-wide;
+    /* Removed overflow: hidden to allow scrolling */
+    /* Removed height: 100vh to allow the body to grow with content */
+    position: relative;
+    width: 100%;
+  }
 
-// about component
-export default function About(): JSX.Element {
-  return (
-    <div id="about" className="w-full md:h-screen p-2 flex items-center py-32">
-      <div className="max-w-7xl m-auto md:grid grid-cols-3 gap-8">
-        <AboutText />
-        <AboutImage />
-      </div>
-    </div>
-  );
-}
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    @apply font-bold;
+  }
+
+  h1 {
+    @apply text-4xl sm:text-5xl md:text-6xl font-[Raleway];
+  }
+
+  h2 {
+    @apply text-3xl sm:text-4xl;
+  }
+
+  li {
+    @apply cursor-pointer;
+  }
+
+  button {
+    @apply shadow-xl shadow-gray-400 rounded-xl uppercase bg-gradient-to-r from-[#4F46E5] to-[#60A5FA] text-white;
+  }
+  
+  /* Custom styles for space background and animations */
+  @keyframes twinkle {
+    0%, 100% { opacity: 1; }
+    50% { opacity: 0.5; }
+  }
+  @keyframes float {
+    0%, 100% { transform: translateY(0); }
+    50% { transform: translateY(-20px); }
+  }
+
+  .star {
+    width: 3px;
+    height: 3px;
+    background-color: white;
+    border-radius: 50%;
+    position: absolute;
+    box-shadow: 0 0 8px white;
+    animation: twinkle 3s infinite ease-in-out;
+  }
+
+  .planet {
+    position: absolute;
+    animation: float 10s infinite ease-in-out;
+  }
+
+  .far-away {
+    opacity: 0.6; /* Far away planets are less visible */
+    animation-duration: 15s; /* Slower animation for far away planets */
+  }
+
+  .ring {
+    fill: none;
+    stroke: white;
+    stroke-width: 2px;
+  }
+} 
