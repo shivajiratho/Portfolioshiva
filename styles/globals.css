@@ -12,7 +12,7 @@ html {
 /* global styles for tailwind */
 @layer base {
   body {
-    @apply bg-white text-[#1f2937] tracking-wide; /* Updated background color to white */
+    @apply text-white tracking-wide bg-babyblue;
     position: relative;
     width: 100%;
     min-height: 100vh; /* Ensure at least full viewport height */
@@ -20,22 +20,21 @@ html {
 
   /* ... other styles ... */
 
-  .planet {
+  .star, .planet {
     position: absolute;
+    will-change: transform; /* Optimize for animations */
+  }
+
+  .planet {
+    @apply w-16 h-16 rounded-full bg-white; /* Example size and color for planets */
     animation: float 10s infinite ease-in-out;
   }
 
-  .far-away {
-    opacity: 0.6; /* Far away planets are less visible */
-    animation-duration: 15s; /* Slower animation for far away planets */
+  .star {
+    @apply w-1 h-1 bg-white; /* Example size and color for stars */
+    animation: twinkle 3s infinite ease-in-out;
   }
 
-  .ring {
-    fill: none;
-    stroke: white;
-    stroke-width: 2px;
-  }
-  
   /* Custom styles for space background and animations */
   @keyframes twinkle {
     0%, 100% { opacity: 1; }
@@ -43,6 +42,36 @@ html {
   }
   @keyframes float {
     0%, 100% { transform: translateY(0); }
-    50% { transform: translateY(-20px); }
+    50% { transform: translateY(-10px); }
   }
+  <div class="parallax-container">
+    <!-- Stars and planets will be added here by JavaScript -->
+    <script>
+        function generateSpaceObjects(className, numberOfObjects) {
+          const container = document.querySelector('.parallax-container');
+          for (let i = 0; i < numberOfObjects; i++) {
+            const object = document.createElement('div');
+            object.classList.add(className);
+            // Random position within the container
+            object.style.top = `${Math.random() * 100}%`;
+            object.style.left = `${Math.random() * 100}%`;
+            container.appendChild(object);
+          }
+        }
+      
+        // Generate stars and planets
+        generateSpaceObjects('star', 50);
+        generateSpaceObjects('planet', 5);
+      
+        // Parallax effect
+        window.addEventListener('scroll', () => {
+          const scrolledHeight= window.pageYOffset;
+          document.querySelectorAll('.star, .planet').forEach((el) => {
+            const speed = el.classList.contains('planet') ? 0.2 : 0.5; // Speed variation
+            const parallaxValue = scrolledHeight * speed;
+            el.style.transform = `translateY(${parallaxValue}px)`;
+          });
+        });
+      </script> 
+</div>
 }
