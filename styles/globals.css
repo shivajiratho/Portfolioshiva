@@ -44,34 +44,4 @@ html {
     0%, 100% { transform: translateY(0); }
     50% { transform: translateY(-10px); }
   }
-  <div class="parallax-container">
-    <!-- Stars and planets will be added here by JavaScript -->
-    <script>
-        function generateSpaceObjects(className, numberOfObjects) {
-          const container = document.querySelector('.parallax-container');
-          for (let i = 0; i < numberOfObjects; i++) {
-            const object = document.createElement('div');
-            object.classList.add(className);
-            // Random position within the container
-            object.style.top = `${Math.random() * 100}%`;
-            object.style.left = `${Math.random() * 100}%`;
-            container.appendChild(object);
-          }
-        }
-      
-        // Generate stars and planets
-        generateSpaceObjects('star', 50);
-        generateSpaceObjects('planet', 5);
-      
-        // Parallax effect
-        window.addEventListener('scroll', () => {
-          const scrolledHeight= window.pageYOffset;
-          document.querySelectorAll('.star, .planet').forEach((el) => {
-            const speed = el.classList.contains('planet') ? 0.2 : 0.5; // Speed variation
-            const parallaxValue = scrolledHeight * speed;
-            el.style.transform = `translateY(${parallaxValue}px)`;
-          });
-        });
-      </script> 
-</div>
 }
