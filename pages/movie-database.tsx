@@ -51,8 +51,8 @@ function MovieDatabaseTextBody(): JSX.Element {
         </Link>
       </p>
 
-      <ProjectButtonCode url="https://github.com/milliorn/Movie-Database" />
-      <ProjectButtonDemo url="https://reactjs-movie-database.netlify.app/" />
+      <ProjectButtonCode url="https://github.com/milliorn/passhubcover" />
+      <ProjectButtonDemo url="https://passhub.trevors.tsiacademy.org/auth" />
     </div>
   );
 }
