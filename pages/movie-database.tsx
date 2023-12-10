@@ -67,9 +67,9 @@ export default function MovieDatabase(): JSX.Element {
           alt="/"
           className="absolute z-10 object-cover"
           fill
-          src={movieDatabaseImg}
+          src={passhubcoverImg}
         />
-        <ProjectHeroText h2="Movie Database" h3="React, TypeScript, Netlify" />
+        <ProjectHeroText h2="Pass Hub" h3="Javascript, Wordpress, PHP" />
       </div>
 
       <div className="max-w-7xl mx-auto p-2 grid md:grid-cols-5 gap-8 py-8">
