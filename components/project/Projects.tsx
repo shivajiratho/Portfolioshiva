@@ -1,13 +1,11 @@
 import ProjectItem from "./ProjectItem";
 
-import currentWeatherImg from "../../public/assets/projects/current-weather.png";
 import holsolwellcoverImg from "../../public/assets/projects/holsolwellcover.png";
 import uvmgallerycoverImg from "../../public/assets/projects/uvmgallerycover.png";
 import movieDatabaseImg from "../../public/assets/projects/movie-database.png";
 import StarlocoverImg from "../../public/assets/projects/Starlocover.png";
 import chattykenportfileImg from "../../public/assets/projects/chattykenportfile.png";
 import AmistadcityImg from "../../public/assets/projects/Amistadcity.png";
-import travelAgencyImg from "../../public/assets/projects/travel-agency.png";
 
 
 // holds all project items in projects
@@ -15,24 +13,10 @@ function ProjectsContainer(): JSX.Element {
   return (
     <div className="grid md:grid-cols-3 gap-8">
       <ProjectItem
-        backgroundImg={travelAgencyImg}
-        projectUrl="/landing-pages"
-        tech="React, TypeScript, Tailwind CSS"
-        title="Landing Pages"
-      />
-
-      <ProjectItem
         backgroundImg={movieDatabaseImg}
         projectUrl="/movie-database"
         tech="React, Typescript, Netlify"
         title="Movie Database"
-      />
-
-      <ProjectItem
-        backgroundImg={currentWeatherImg}
-        projectUrl="/weather"
-        tech="React, Tailwind CSS"
-        title="Current Weather"
       />
 
       <ProjectItem
