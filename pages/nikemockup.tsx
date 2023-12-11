@@ -1,7 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 
-import currentWeatherImg from "../public/assets/projects/current-weather.png";
+import nikemockupImg from "../public/assets/projects/nikemockup.png";
 
 import BackButton from "../components/BackButton";
 import ProjectButtonCode from "../components/project/ProjectButtonCode";
@@ -12,12 +12,9 @@ import ProjectTextHeading from "../components/project/ProjectTextBody";
 import TechStack from "../components/TechStack";
 
 const techStack = [
-  "React",
+  "Hyper 3D",
   "JavaScript",
-  "Accordion",
-  "Paginate",
-  "Tailwind CSS",
-  "API",
+  
 ] as const;
 
 // body of text found in project pages
@@ -30,18 +27,17 @@ function WeatherTextBody(): JSX.Element {
         address some features I find lacking in other apps. I can now check the
         weather reported from thousands of cities worldwide using{" "}
         <Link
-          href="https://openweathermap.org/"
+          href=""
           target="_blank"
           className="text-blue-500 cursor-pointer"
         >
           OpenWeather API.{" "}
         </Link>
         <span>
-          API is able to get precision results by using latitude/longitude in
-          the request, which is provided by the{" "}
+          {" "}
         </span>
         <Link
-          href="https://rapidapi.com/wirefreethought/api/geodb-cities"
+          href=""
           target="_blank"
           className="text-blue-500 cursor-pointer"
         >
@@ -69,10 +65,10 @@ export default function Weather(): JSX.Element {
           alt="/"
           className="absolute z-10 object-cover"
           fill
-          src={currentWeatherImg}
+          src={nikemockupImg}
         />
         <ProjectHeroText
-          h2="Current Weather"
+          h2="Nike Mockup"
           h3="React, JavaScript, Tailwind CSS"
         />
       </div>
