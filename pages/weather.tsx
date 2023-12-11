@@ -1,7 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 
-import nikemockupImg from "../public/assets/projects/nikemockup.png";
+import currentWeatherImg from "../public/assets/projects/current-weather.png";
 
 import BackButton from "../components/BackButton";
 import ProjectButtonCode from "../components/project/ProjectButtonCode";
@@ -30,17 +30,18 @@ function WeatherTextBody(): JSX.Element {
         address some features I find lacking in other apps. I can now check the
         weather reported from thousands of cities worldwide using{" "}
         <Link
-          href=
+          href="https://openweathermap.org/"
           target="_blank"
           className="text-blue-500 cursor-pointer"
         >
           OpenWeather API.{" "}
         </Link>
         <span>
-         {" "}
+          API is able to get precision results by using latitude/longitude in
+          the request, which is provided by the{" "}
         </span>
         <Link
-          href=
+          href="https://rapidapi.com/wirefreethought/api/geodb-cities"
           target="_blank"
           className="text-blue-500 cursor-pointer"
         >
@@ -68,11 +69,11 @@ export default function Weather(): JSX.Element {
           alt="/"
           className="absolute z-10 object-cover"
           fill
-          src={nikemockupImg}
+          src={currentWeatherImg}
         />
         <ProjectHeroText
-          h2="Nike Mock Up"
-          h3="Wordpress, JavaScript, Hyper 3D"
+          h2="Current Weather"
+          h3="React, JavaScript, Tailwind CSS"
         />
       </div>
 
