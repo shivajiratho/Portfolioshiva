@@ -23,15 +23,7 @@ function MovieDatabaseTextBody(): JSX.Element {
     <div className="col-span-4">
       <ProjectTextHeading />
       <p>
-      I meticulously establish a secure database using the MySQL Database Wizard, carefully assigning user privileges for enhanced security. 
-      I proceed to upload the application files via the cPanel File Manager or an FTP client, ensuring file permissions are correctly 
-      set to safeguard against unauthorized access. 
-      To boost the application's capabilities, I employ EasyApache to install necessary PHP extensions, and I automate routine maintenance 
-      tasks like database backups by setting up cron jobs.
-       I prioritize security by installing an SSL certificate through cPanel's SSL/TLS Manager and by configuring .htaccess for additional 
-       protective measures such as IP whitelisting. By utilizing cPanel's comprehensive tools, I adeptly manage and maintain a secure, efficient, 
-       and user-friendly Passhub PHP application,
-       ensuring reliable password management for users.{" "}
+        {" "}
         <Link
           href="https://reactjs.org/docs/components-and-props.html"
           target="_blank"
