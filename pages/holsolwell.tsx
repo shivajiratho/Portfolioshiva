@@ -13,7 +13,7 @@ import TechStack from "../components/TechStack";
 
 const techStack = [
   "JavaScript",
-  "ThreeJs"
+  "Hyper 3D"
 ] as const;
 
 // body of text found in project pages
@@ -56,7 +56,7 @@ export default function Dictionary(): JSX.Element {
           fill
           src={holsolwellcoverImg}
         />
-        <ProjectHeroText h2="Hol Sol Wellness" h3="Wordpress, Divi, Threejs, Ecwid" />
+        <ProjectHeroText h2="Hol Sol Wellness" h3="Wordpress, Divi, Hyper 3D, Ecwid" />
       </div>
 
       <div className="max-w-7xl mx-auto p-2 grid md:grid-cols-5 gap-8 py-8">
