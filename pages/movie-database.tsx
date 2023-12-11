@@ -51,7 +51,7 @@ function MovieDatabaseTextBody(): JSX.Element {
         </Link>
       </p>
 
-      <ProjectButtonCode url="https://github.com/milliorn/passhubcover" />
+      <ProjectButtonCode url="https://github.com/Truey95/PassHub" />
       <ProjectButtonDemo url="https://passhub.trevors.tsiacademy.org/auth" />
     </div>
   );
