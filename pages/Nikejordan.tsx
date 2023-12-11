@@ -1,6 +1,6 @@
 import Image from "next/image";
 
-import openAiImg from "../public/assets/projects/open-ai-onrender.png";
+import nikemockupImg from "../public/assets/projects/nikemockup.png";
 
 import BackButton from "../components/BackButton";
 import ProjectButtonCode from "../components/project/ProjectButtonCode";
