@@ -23,7 +23,10 @@ function MovieDatabaseTextBody(): JSX.Element {
     <div className="col-span-4">
       <ProjectTextHeading />
       <p>
-        {" "}
+        In managing my Passhub application via cPanel, , React Router, Styled Components, and
+        Prop Types. I learned numerous things on this project during a time when
+        React was beginning to migrate away from FunctionComponent and Classes
+        into Components and Props as seen{" "}
         <Link
           href="https://reactjs.org/docs/components-and-props.html"
           target="_blank"
