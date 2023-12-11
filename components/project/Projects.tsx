@@ -30,9 +30,9 @@ function ProjectsContainer(): JSX.Element {
 
 <ProjectItem
         backgroundImg={nikemockupImg}
-        projectUrl="/holsolwell"
-        tech="Wordpress, Divi, Threejs"
-        title="Nike Jordan Histroy Mock Uo"
+        projectUrl="/nikemockup"
+        tech="Wordpress, Divi, Hyper3D"
+        title="Nike Jordan Mock Uo"
       />
 
       <ProjectItem
