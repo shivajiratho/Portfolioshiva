@@ -32,7 +32,7 @@ function RecipeTextBody() {
       </p>
 
       <ProjectButtonCode url="https://github.com/milliorn/Recipe-Page" />
-      <ProjectButtonDemo url="https://gatsbyrecipes.gatsbyjs.io/" />
+      <ProjectButtonDemo url="https://trevors.tsiacademy.org/capstone/week1/WordPress-master/" />
     </div>
   );
 }
