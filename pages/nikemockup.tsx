@@ -24,8 +24,7 @@ function WeatherTextBody(): JSX.Element {
       <ProjectTextHeading />
       <p>
         My favorite and personally most useful app, I created this app to
-        address some features I find lacking in other apps. I can now check the
-        weather reported from thousands of cities worldwide using{" "}
+        address some features I find lacking {" "}
         <Link
           href=""
           target="_blank"
