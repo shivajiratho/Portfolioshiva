@@ -12,8 +12,12 @@ import ProjectTextHeading from "../components/project/ProjectTextBody";
 import TechStack from "../components/TechStack";
 
 const techStack = [
-  "Hyper 3D",
+  "React",
   "JavaScript",
+  "Accordion",
+  "Paginate",
+  "Tailwind CSS",
+  "API",
 ] as const;
 
 // body of text found in project pages
@@ -30,7 +34,7 @@ function WeatherTextBody(): JSX.Element {
           target="_blank"
           className="text-blue-500 cursor-pointer"
         >
-          {" "}
+          OpenWeather API.{" "}
         </Link>
         <span>
          {" "}
@@ -40,10 +44,12 @@ function WeatherTextBody(): JSX.Element {
           target="_blank"
           className="text-blue-500 cursor-pointer"
         >
-          {" "}
+          GeoDB Cities API.{" "}
         </Link>
         <span>
-          
+          React Accordion and Pagination is used so you simply search for the
+          city, select return results, and the response will create a weather
+          forecast with collapse/expand elements for the daily forecast.
         </span>
       </p>
       <ProjectButtonCode url="https://github.com/milliorn/Current-Weather" />
