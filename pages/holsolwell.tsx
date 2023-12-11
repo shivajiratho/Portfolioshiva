@@ -22,9 +22,12 @@ function DictionaryTextBody(): JSX.Element {
     <div className="col-span-4">
       <ProjectTextHeading />
       <p>
-        I experimented with a few frontend CSS frameworks. This is the result of
-        one of those occasions using Material-UI. Using this framework I built
-        my first project with a Light-Dark mode toggle.{" "}
+      As the sole architect behind Hol Sol Wellness,
+       a health-focused e-commerce website, I meticulously crafted a 
+       seamless online experience using WordPress and the Divi Builder, 
+       integrated immersive 3D visualizations with Three.js, and implemented a 
+       secure Stripe payment system to ensure a smooth, engaging, and 
+       trustworthy shopping journey for wellness enthusiasts.{" "}
         <Link
           href=""
           target="_blank"
