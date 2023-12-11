@@ -25,7 +25,7 @@ function DictionaryTextBody(): JSX.Element {
       As the sole architect behind Hol Sol Wellness,
        a health-focused e-commerce website, I meticulously crafted a 
        seamless online experience using WordPress and the Divi Builder, 
-       integrated immersive 3D visualizations with Three.js, and implemented a 
+       integrated immersive 3D visualizations with Hyper3D, and implemented a 
        secure Stripe payment system to ensure a smooth, engaging, and 
        trustworthy shopping journey for wellness enthusiasts.{" "}
         <Link
