@@ -40,7 +40,7 @@ export default function OpenAi(): JSX.Element {
           alt="/"
           className="absolute z-10 object-cover"
           fill
-          src={openAiImg}
+          src={nikemockupImg}
         />
         <ProjectHeroText
           h2="Open AI Image Generator"
