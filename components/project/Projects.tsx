@@ -16,7 +16,7 @@ function ProjectsContainer(): JSX.Element {
     <div className="grid md:grid-cols-3 gap-8">
       <ProjectItem
         backgroundImg={passhubcoverImg}
-        projectUrl="/passhubcover"
+        projectUrl="/passhub"
         tech="React, Typescript, PHP"
         title="PassHub"
       />
