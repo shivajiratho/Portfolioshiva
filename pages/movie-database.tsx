@@ -28,7 +28,7 @@ function MovieDatabaseTextBody(): JSX.Element {
         React waand .htaccess configurations, and enhance functionality with EasyApache extensions,
         robust and secure user experience.{" "}
         <Link
-          href="https://reactjs.org/docs/components-and-props.html"
+          href=""
           target="_blank"
           className="text-blue-500 cursor-pointer"
         >
@@ -42,7 +42,7 @@ function MovieDatabaseTextBody(): JSX.Element {
           target="_blank"
           className="text-blue-500 cursor-pointer"
         >
-          The Movie Database API.{" "}
+          {" "}
         </Link>
       </p>
 
