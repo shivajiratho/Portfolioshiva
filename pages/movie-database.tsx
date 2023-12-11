@@ -32,7 +32,7 @@ function MovieDatabaseTextBody(): JSX.Element {
           target="_blank"
           className="text-blue-500 cursor-pointer"
         >
-          here.{" "}
+          {" "}
         </Link>
         <span>
           {" "}
