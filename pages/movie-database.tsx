@@ -35,11 +35,10 @@ function MovieDatabaseTextBody(): JSX.Element {
           here.{" "}
         </Link>
         <span>
-          Custom hooks are used here along with useEffect, including use of
-          State. This site is made possible with{" "}
+          {" "}
         </span>
         <Link
-          href="https://www.themoviedb.org/"
+          href=""
           target="_blank"
           className="text-blue-500 cursor-pointer"
         >
