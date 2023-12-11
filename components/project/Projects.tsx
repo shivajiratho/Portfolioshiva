@@ -23,7 +23,7 @@ function ProjectsContainer(): JSX.Element {
 
       <ProjectItem
         backgroundImg={holsolwellcoverImg}
-        projectUrl="/dictionary"
+        projectUrl="/holsolwell"
         tech="Ecwid, Wordpress, Divi, Threejs"
         title="Hol Soul Wellness"
       />
