@@ -1,7 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 
-import dictionaryImg from "../public/assets/projects/dictionary.png";
+import holsolwellcoverImg from "../public/assets/projects/holsolwellcover.png";
 
 import BackButton from "../components/BackButton";
 import ProjectButtonCode from "../components/project/ProjectButtonCode";
