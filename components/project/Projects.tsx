@@ -24,7 +24,7 @@ function ProjectsContainer(): JSX.Element {
       <ProjectItem
         backgroundImg={holsolwellcoverImg}
         projectUrl="/holsolwell"
-        tech="Ecwid, Wordpress, Divi, Threejs"
+        tech="Ecwid, Wordpress, Divi, Hyper 3D"
         title="Hol Soul Wellness"
       />
 
@@ -44,7 +44,7 @@ function ProjectsContainer(): JSX.Element {
 
       <ProjectItem
         backgroundImg={AmistadcityImg}
-        projectUrl="/open-ai"
+        projectUrl="/Amistadcity"
         tech="Wordpress, Divi, Elementor, Revslider, Cpanel"
         title="Amistad City Festival"
       />
