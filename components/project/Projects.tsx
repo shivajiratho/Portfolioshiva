@@ -59,7 +59,7 @@ function ProjectsContainer(): JSX.Element {
       <ProjectItem
         backgroundImg={chattykenportfileImg}
         projectUrl="Chattyken"
-        tech="OpenAI, NodeJS, Javascript, PHP"
+        tech="OpenAI, Typescript, Javascript, PHP"
         title="Chatty Ken AI"
       />
 

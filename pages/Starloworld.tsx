@@ -24,7 +24,7 @@ function DictionaryTextBody(): JSX.Element {
     <div className="col-span-4">
       <ProjectTextHeading />
       <p>
-      {" "}
+      Music streaming and video streaming website using various api.{" "}
         <Link
           href=""
           target="_blank"
