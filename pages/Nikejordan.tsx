@@ -10,7 +10,7 @@ import ProjectHeroText from "../components/project/ProjectHeroText";
 import ProjectTextHeading from "../components/project/ProjectTextBody";
 import TechStack from "../components/TechStack";
 
-const techStack = ["ExpressJs", "Open AI", "SweetAlert2", "Render"];
+const techStack = ["JavaScript", "Wordpress", "Divi", "Hyper3D"];
 
 // body of text found in project pages
 function OpenAiTextBody(): JSX.Element {
@@ -24,8 +24,8 @@ function OpenAiTextBody(): JSX.Element {
         using ExpressJs.
       </p>
 
-      <ProjectButtonCode url="https://github.com/milliorn/image-generator" />
-      <ProjectButtonDemo url="https://image-generator-pbvf.onrender.com/" />
+      <ProjectButtonCode url="" />
+      <ProjectButtonDemo url="https://trevors.tsiacademy.org/capstone/week1/WordPress-master/" />
     </div>
   );
 }
@@ -43,8 +43,8 @@ export default function OpenAi(): JSX.Element {
           src={nikemockupImg}
         />
         <ProjectHeroText
-          h2="Open AI Image Generator"
-          h3="OpenAI, NodeJS, ExpressJS, Render"
+          h2="Nike Jordan Mock Up"
+          h3="Wordpress, Hyper3D, JavaScript, Divi"
         />
       </div>
 
