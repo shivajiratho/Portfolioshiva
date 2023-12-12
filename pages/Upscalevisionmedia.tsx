@@ -4,7 +4,7 @@ import Link from "next/link";
 import uvmgallerycoverImg from "../public/assets/projects/uvmgallerycover.png";
 
 import BackButton from "../components/BackButton";
-import ProjectButtonCode from "../components/project/ProjectButtonCode";
+
 import ProjectButtonDemo from "../components/project/ProjectButtonDemo";
 import ProjectHeroOverlay from "../components/project/ProjectHeroOverlay";
 import ProjectHeroText from "../components/project/ProjectHeroText";
@@ -44,13 +44,13 @@ function WeatherTextBody(): JSX.Element {
           target="_blank"
           className="text-blue-500 cursor-pointer"
         >
-          GeoDB Cities API.{" "}
+          {" "}
         </Link>
         <span>
           
         </span>
       </p>
-      <ProjectButtonCode url="" />
+      
       <ProjectButtonDemo url="https://upscalevisionmedia.org" />
     </div>
   );
