@@ -4,7 +4,7 @@ import Link from "next/link";
 import AmistadcityImg from "../public/assets/projects/Amistadcity.png";
 
 import BackButton from "../components/BackButton";
-import ProjectButtonCode from "../components/project/ProjectButtonCode";
+
 import ProjectButtonDemo from "../components/project/ProjectButtonDemo";
 import ProjectHeroOverlay from "../components/project/ProjectHeroOverlay";
 import ProjectHeroText from "../components/project/ProjectHeroText";
@@ -14,6 +14,7 @@ import TechStack from "../components/TechStack";
 const techStack = [
   "JavaScript",
   "Rev Slider",
+  "Wordpress"
 ] as const;
 
 // body of text found in project pages
@@ -29,22 +30,20 @@ function LandingPageTextBody() {
           target="_blank"
           className="text-blue-500 cursor-pointer"
         >
-          AstroJs{" "}
+          {" "}
         </Link>
         <span>
-          Newest framework I have begun to use is NextJs which is what I used to
-          build this{" "}
+          s{" "}
         </span>
         <Link
           href="https://github.com/Truey95"
           target="_blank"
           className="text-blue-500 cursor-pointer"
         >
-          portfoilio.
+          
         </Link>
       </p>
 
-      <ProjectButtonCode url="https://github.com/milliorn?tab=repositories&q=landing&type=&language=&sort=" />
       <ProjectButtonDemo url="https://www.amistadcity.com" />
     </div>
   );
