@@ -23,11 +23,7 @@ function MovieDatabaseTextBody(): JSX.Element {
     <div className="col-span-4">
       <ProjectTextHeading />
       <p>
-      I engineered Starlo, a dynamic music streaming platform, by 
-      harnessing the versatility of JavaScript along with PHP's robust 
-      server-side scripting. Seamlessly integrating Tailwind for the UI components, 
-      I also established a smooth connection with various APIs to ensure a seamless
-       audio experience.{" "}
+     {" "}
         <Link
           href=""
           target="_blank"
