@@ -1,7 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 
-import nikemockupImg from "../public/assets/projects/nikemockup.png";
+import uvmgallerycoverImg from "../public/assets/projects/uvmgallerycover.png";
 
 import BackButton from "../components/BackButton";
 import ProjectButtonCode from "../components/project/ProjectButtonCode";
@@ -12,8 +12,8 @@ import ProjectTextHeading from "../components/project/ProjectTextBody";
 import TechStack from "../components/TechStack";
 
 const techStack = [
-  "Hyper 3D",
-  "JavaScript",
+  "",
+  "",
   
 ] as const;
 
@@ -30,7 +30,7 @@ function WeatherTextBody(): JSX.Element {
           target="_blank"
           className="text-blue-500 cursor-pointer"
         >
-          OpenWeather API.{" "}
+          {" "}
         </Link>
         <span>
           {" "}
@@ -43,13 +43,11 @@ function WeatherTextBody(): JSX.Element {
           GeoDB Cities API.{" "}
         </Link>
         <span>
-          React Accordion and Pagination is used so you simply search for the
-          city, select return results, and the response will create a weather
-          forecast with collapse/expand elements for the daily forecast.
+          Made on wordpress using divi builder for a media marketing company.
         </span>
       </p>
-      <ProjectButtonCode url="https://github.com/milliorn/Current-Weather" />
-      <ProjectButtonDemo url="https://milliorn.github.io/Current-Weather/" />
+      <ProjectButtonCode url="" />
+      <ProjectButtonDemo url="https://upscalevisionmedia.org" />
     </div>
   );
 }
@@ -64,11 +62,11 @@ export default function Weather(): JSX.Element {
           alt="/"
           className="absolute z-10 object-cover"
           fill
-          src={nikemockupImg}
+          src={uvmgallerycoverImg}
         />
         <ProjectHeroText
-          h2="Nike Mockup"
-          h3="React, JavaScript, Tailwind CSS"
+          h2="Upscale Vision Media"
+          h3="Wordpress, Divi"
         />
       </div>
 
