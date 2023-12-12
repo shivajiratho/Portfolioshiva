@@ -16,6 +16,7 @@ const techStack = [
   "Tailwind",
   "PHP",
   "Typescript",
+  "Stripe",
 ] as const;
 
 // body of text found in project pages
@@ -24,12 +25,10 @@ function DictionaryTextBody(): JSX.Element {
     <div className="col-span-4">
       <ProjectTextHeading />
       <p>
-      As the sole architect behind Hol Sol Wellness,
-       a health-focused e-commerce website, I meticulously crafted a 
-       seamless online experience using WordPress and the Divi Builder, 
-       integrated immersive 3D visualizations with Hyper3D, and implemented a 
-       secure Stripe payment system to ensure a smooth, engaging, and 
-       trustworthy shopping journey for wellness enthusiasts.{" "}
+      I engineered Starlo, a dynamic music streaming platform,
+      by harnessing the versatility of JavaScript, along with PHP's 
+      robust server-side scripting. Seamlessly integrating Tailwind for the UI components,
+      I also established a smooth connectionwith various APIs to ensure a seamless audio experience.{" "}
         <Link
           href=""
           target="_blank"
