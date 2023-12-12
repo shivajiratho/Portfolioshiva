@@ -4,7 +4,7 @@ import Link from "next/link";
 import chattykenportfileImg from "../public/assets/projects/chattykenportfile.png";
 
 import BackButton from "../components/BackButton";
-import ProjectButtonCode from "../components/project/ProjectButtonCode";
+
 import ProjectButtonDemo from "../components/project/ProjectButtonDemo";
 import ProjectHeroOverlay from "../components/project/ProjectHeroOverlay";
 import ProjectHeroText from "../components/project/ProjectHeroText";
@@ -13,7 +13,9 @@ import TechStack from "../components/TechStack";
 
 const techStack = [
   "JavaScript",
-  "Rev Slider",
+  "PHP",
+  "Typescript",
+  "OpenAI",
 ] as const;
 
 // body of text found in project pages
@@ -22,18 +24,22 @@ function LandingPageTextBody() {
     <div className="col-span-4">
       <ProjectTextHeading />
       <p>
-        I used UX/UI experience to build this festival website with various technologies and frameworks. SpaceX landing page was
-        made with{" "}
+      Chatty Ken's platform was conceived through the innovative application 
+      of deep machine learning algorithms, ensuring an intelligent and responsive 
+      user experience. The website's foundation was meticulously crafted using 
+      JavaScript, enriched with PHP functions for robust backend operations. 
+      By leveraging OpenAI's capabilities, we orchestrated a fleet of 16 specialized 
+      machines, each meticulously tailored to fulfill a distinct function 
+      within our intricate digital ecosystem.{" "}
         <Link
-          href="https://milliorn.github.io/SpaceX-Website/"
+          href=""
           target="_blank"
           className="text-blue-500 cursor-pointer"
         >
           AstroJs{" "}
         </Link>
         <span>
-          Newest framework I have begun to use is NextJs which is what I used to
-          build this{" "}
+          {" "}
         </span>
         <Link
           href="https://github.com/Truey95"
@@ -44,8 +50,8 @@ function LandingPageTextBody() {
         </Link>
       </p>
 
-      <ProjectButtonCode url="https://github.com/milliorn?tab=repositories&q=landing&type=&language=&sort=" />
-      <ProjectButtonDemo url="https://www.amistadcity.com" />
+      
+      <ProjectButtonDemo url="https://www.chattyken.com" />
     </div>
   );
 }
@@ -62,7 +68,7 @@ export default function LandingPage(): JSX.Element {
           fill
           src={chattykenportfileImg}
         />
-        <ProjectHeroText h2="Chatty Ken" h3="React, Tailwind CSS, Rev Slider, Wordpress" />
+        <ProjectHeroText h2="Chatty Ken" h3="PHP, Javascript, OpenAI, Typescript" />
       </div>
 
       <div className="max-w-7xl mx-auto p-2 grid md:grid-cols-5 gap-8 py-8">

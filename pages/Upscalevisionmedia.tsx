@@ -23,8 +23,12 @@ function WeatherTextBody(): JSX.Element {
     <div className="col-span-4">
       <ProjectTextHeading />
       <p>
-        My favorite and personally most useful app, I created this app to
-        address some features I find lacking {" "}
+      I crafted Upscale Vision, a sophisticated media marketing portal, 
+      utilizing the intuitive WordPress ecosystem, and infused it with the 
+      elegance of the Divi theme. To streamline e-commerce functionality, 
+      I adeptly linked Ecwid for product management and integrated Stripe for 
+      secure payment processing, creating a harmonious 
+      online shopping environment. {" "}
         <Link
           href=""
           target="_blank"
@@ -43,7 +47,7 @@ function WeatherTextBody(): JSX.Element {
           GeoDB Cities API.{" "}
         </Link>
         <span>
-          Made on wordpress using divi builder for a media marketing company.
+          
         </span>
       </p>
       <ProjectButtonCode url="" />

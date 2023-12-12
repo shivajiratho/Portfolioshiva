@@ -14,7 +14,7 @@ import TechStack from "../components/TechStack";
 const techStack = [
   "Javascript",
   "PHP",
-  "TypeScript",
+
 ] as const;
 
 // body of text found in project pages
@@ -23,10 +23,11 @@ function MovieDatabaseTextBody(): JSX.Element {
     <div className="col-span-4">
       <ProjectTextHeading />
       <p>
-        In managing my Passhub application via cPanel, I meticulously configure the database
-        secure file permissions, automate maintenance with cron jobs, bolster security with SSL
-        React waand .htaccess configurations, and enhance functionality with EasyApache extensions,
-        robust and secure user experience.{" "}
+      I engineered Starlo, a dynamic music streaming platform, by 
+      harnessing the versatility of JavaScript along with PHP's robust 
+      server-side scripting. Seamlessly integrating Tailwind for the UI components, 
+      I also established a smooth connection with various APIs to ensure a seamless
+       audio experience.{" "}
         <Link
           href=""
           target="_blank"
@@ -64,7 +65,7 @@ export default function MovieDatabase(): JSX.Element {
           fill
           src={StarlocoverImg}
         />
-        <ProjectHeroText h2="Pass Hub" h3="Javascript, Wordpress, PHP, Typescript" />
+        <ProjectHeroText h2="Starlo World Music Streaming" h3="Javascript, PHP" />
       </div>
 
       <div className="max-w-7xl mx-auto p-2 grid md:grid-cols-5 gap-8 py-8">
