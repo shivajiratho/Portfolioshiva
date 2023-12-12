@@ -60,7 +60,7 @@ export default function MovieDatabase(): JSX.Element {
       <div className="w-screen h-[50vh] relative">
         <ProjectHeroOverlay />
         <Image
-          alt="/"
+          alt=""
           className="absolute z-10 object-cover"
           fill
           src={StarlocoverImg}
