@@ -13,7 +13,9 @@ import TechStack from "../components/TechStack";
 
 const techStack = [
   "JavaScript",
-  "Hyper 3D"
+  "Tailwind",
+  "PHP",
+  "Typescript",
 ] as const;
 
 // body of text found in project pages
@@ -55,7 +57,7 @@ export default function Dictionary(): JSX.Element {
           fill
           src={StarlocoverImg}
         />
-        <ProjectHeroText h2="Hol Sol Wellness" h3="Wordpress, Divi, Hyper 3D, Ecwid" />
+        <ProjectHeroText h2="Starlo World" h3="Tailwind, PHP ,Javascript, Stripe, Typescript" />
       </div>
 
       <div className="max-w-7xl mx-auto p-2 grid md:grid-cols-5 gap-8 py-8">
