@@ -11,7 +11,7 @@ export default function HeroText(): JSX.Element {
       <h6 className="py-4 text-grey-700">
         Hello, I&apos;m <span className="text-red-600">Trevor Smith</span>
       </h6>
-      <h1 className="py-4 text-gray-700">Web Developer</h1>
+      <h1 className="py-4 text-gray-700">Software Engineer</h1>
       <p className="py-4 text-gray-600 max-w-xs m-auto">
         Focused on building responsive, mobile first web applications while
         learning back-end technologies.
