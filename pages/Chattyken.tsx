@@ -30,13 +30,7 @@ function LandingPageTextBody() {
           target="_blank"
           className="text-blue-500 cursor-pointer"
         >
-          Chatty Ken's platform was conceived through the innovative application of 
-          deep machine learning algorithms, ensuring an intelligent and responsive user 
-          experience. The website's foundation was meticulously crafted using JavaScript, 
-          enriched with PHP functions for robust backend operations. By leveraging OpenAI's 
-          capabilities, we orchestrated a fleet of 16 specialized machines, 
-          each meticulously tailored to fulfill 
-          a distinct function within our intricate digital ecosystem.{" "}
+          {" "}
         </Link>
         <span>
           {" "}
@@ -46,7 +40,7 @@ function LandingPageTextBody() {
           target="_blank"
           className="text-blue-500 cursor-pointer"
         >
-          portfoilio.
+          
         </Link>
       </p>
 
