@@ -1,7 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 
-import AmistadcityImg from "../public/assets/projects/Amistadcity.png";
+import AmistadcityImg from "../public/assets/projects/chattykenportfile.png";
 
 import BackButton from "../components/BackButton";
 import ProjectButtonCode from "../components/project/ProjectButtonCode";
@@ -60,9 +60,9 @@ export default function LandingPage(): JSX.Element {
           alt="/"
           className="absolute z-10 object-cover"
           fill
-          src={AmistadcityImg}
+          src={chattykenportfileImg}
         />
-        <ProjectHeroText h2="Amistad City" h3="React, Tailwind CSS, Rev Slider, Wordpress" />
+        <ProjectHeroText h2="Chatty Ken" h3="React, Tailwind CSS, Rev Slider, Wordpress" />
       </div>
 
       <div className="max-w-7xl mx-auto p-2 grid md:grid-cols-5 gap-8 py-8">
