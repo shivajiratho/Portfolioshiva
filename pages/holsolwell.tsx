@@ -4,7 +4,7 @@ import Link from "next/link";
 import holsolwellcoverImg from "../public/assets/projects/holsolwellcover.png";
 
 import BackButton from "../components/BackButton";
-import ProjectButtonCode from "../components/project/ProjectButtonCode";
+
 import ProjectButtonDemo from "../components/project/ProjectButtonDemo";
 import ProjectHeroOverlay from "../components/project/ProjectHeroOverlay";
 import ProjectHeroText from "../components/project/ProjectHeroText";
@@ -38,8 +38,7 @@ function DictionaryTextBody(): JSX.Element {
         <span></span>
       </p>
 
-      <ProjectButtonCode url="https://github.com/milliorn/UI-Dictionary" />
-      <ProjectButtonDemo url="https://react-material-ui-dictionary.netlify.app/" />
+      <ProjectButtonDemo url="https:holsoulwellness.com" />
     </div>
   );
 }
