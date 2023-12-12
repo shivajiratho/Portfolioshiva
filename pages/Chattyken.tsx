@@ -24,13 +24,7 @@ function LandingPageTextBody() {
     <div className="col-span-4">
       <ProjectTextHeading />
       <p>
-      Chatty Ken's platform was conceived through the innovative application 
-      of deep machine learning algorithms, ensuring an intelligent and responsive 
-      user experience. The website's foundation was meticulously crafted using 
-      JavaScript, enriched with PHP functions for robust backend operations. 
-      By leveraging OpenAI's capabilities, we orchestrated a fleet of 16 specialized 
-      machines, each meticulously tailored to fulfill a distinct function 
-      within our intricate digital ecosystem.{" "}
+      {" "}
         <Link
           href=""
           target="_blank"
@@ -63,7 +57,7 @@ export default function LandingPage(): JSX.Element {
       <div className="w-screen h-[50vh] relative">
         <ProjectHeroOverlay />
         <Image
-          alt="/"
+          alt=""
           className="absolute z-10 object-cover"
           fill
           src={chattykenportfileImg}
