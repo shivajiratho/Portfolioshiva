@@ -1,7 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 
-import AmistadcityImg from "../public/assets/projects/chattykenportfile.png";
+import chattykenportfileImg from "../public/assets/projects/chattykenportfile.png";
 
 import BackButton from "../components/BackButton";
 import ProjectButtonCode from "../components/project/ProjectButtonCode";
