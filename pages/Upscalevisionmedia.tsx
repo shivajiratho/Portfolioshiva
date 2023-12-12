@@ -23,7 +23,7 @@ function WeatherTextBody(): JSX.Element {
     <div className="col-span-4">
       <ProjectTextHeading />
       <p>
-      I crafted Upscale Vision, a sophisticated media marketing portal, 
+      Upscale Vision Media, a sophisticated media marketing portal, 
       utilizing the intuitive WordPress ecosystem, and infused it with the 
       elegance of the Divi theme. To streamline e-commerce functionality, 
       I adeptly linked Ecwid for product management and integrated Stripe for 
