@@ -51,7 +51,7 @@ function ProjectsContainer(): JSX.Element {
 
       <ProjectItem
         backgroundImg={StarlocoverImg}
-        projectUrl="/open-ai"
+        projectUrl="/Starloworld"
         tech="NodeJS, Tailwind, PHP, Javascript"
         title="Starlo Music & Video Streaming"
       />
