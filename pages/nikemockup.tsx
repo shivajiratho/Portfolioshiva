@@ -1,7 +1,7 @@
 import Image from "next/image";
 
 import BackButton from "../components/BackButton";
-import ProjectButtonCode from "../components/project/ProjectButtonCode";
+
 import ProjectButtonDemo from "../components/project/ProjectButtonDemo";
 import ProjectHeroOverlay from "../components/project/ProjectHeroOverlay";
 import ProjectHeroText from "../components/project/ProjectHeroText";
@@ -31,7 +31,6 @@ function RecipeTextBody() {
         making. Pages are generated with the help of Contentful CMS and GraphQL.
       </p>
 
-      <ProjectButtonCode url="https://github.com/milliorn/Recipe-Page" />
       <ProjectButtonDemo url="https://trevors.tsiacademy.org/capstone/week1/WordPress-master/" />
     </div>
   );

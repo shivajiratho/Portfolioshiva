@@ -3,7 +3,7 @@ import Image from "next/image";
 import nikemockupImg from "../public/assets/projects/nikemockup.png";
 
 import BackButton from "../components/BackButton";
-import ProjectButtonCode from "../components/project/ProjectButtonCode";
+
 import ProjectButtonDemo from "../components/project/ProjectButtonDemo";
 import ProjectHeroOverlay from "../components/project/ProjectHeroOverlay";
 import ProjectHeroText from "../components/project/ProjectHeroText";
@@ -23,7 +23,7 @@ function OpenAiTextBody(): JSX.Element {
        all seamlessly integrated using the Divi Builder.
       </p>
 
-      <ProjectButtonCode url="" />
+     
       <ProjectButtonDemo url="https://trevors.tsiacademy.org/capstone/week1/WordPress-master/" />
     </div>
   );
