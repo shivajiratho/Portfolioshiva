@@ -37,7 +37,7 @@ function ProjectsContainer(): JSX.Element {
 
       <ProjectItem
         backgroundImg={uvmgallerycoverImg}
-        projectUrl="/recipes"
+        projectUrl="/Upscalevisionmedia"
         tech="Divi Builder, Wordpress, Cpanel, Ecwid"
         title="Upscale Vision Media"
       />

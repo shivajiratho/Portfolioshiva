@@ -18,10 +18,9 @@ function OpenAiTextBody(): JSX.Element {
     <div className="col-span-4">
       <ProjectTextHeading />
       <p>
-        I been wanting to learn more about NodeJs, along with ExpressJs. I used
-        them to create my first web service hosted on Render. This site will
-        generate images from user input using OpenAi API. Backend was scaffold
-        using ExpressJs.
+      Delve into the storied past of the Jordan sneaker on our WordPress site,
+       featuring a vivid, interactive 3D model that you can spin and explore, 
+       all seamlessly integrated using the Divi Builder.
       </p>
 
       <ProjectButtonCode url="" />
