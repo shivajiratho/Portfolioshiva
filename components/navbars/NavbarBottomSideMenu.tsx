@@ -21,15 +21,10 @@ export default function NavbarBottomSideMenu(): JSX.Element {
     {
       className:
         "rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300 text-sky-500",
-      href: "https://instagram.com",
-      icon: <FaInstagram />,
+      href: "https://twitter.com",
+      icon: <FaTwitter />,
     },
-    {
-      className:
-        "rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300 text-pink-500",
-      href: "https://milliorn.github.io/digital-resume/",
-      icon: <BsFillPersonLinesFill />,
-    },
+
   ] as const;
 
   return (
